@@ -59,6 +59,4 @@ function reverseString(text) {
     return text.split('').reduce((ans, char) => char + ans, '');
 }
 
-console.log(reverseString('abc'))
-
 module.exports = reverseString
